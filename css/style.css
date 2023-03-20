@@ -1,0 +1,27 @@
+
+
+.owl-carousel .img {
+	width: 300px;
+	height: 290px;
+	border-radius: 50%;
+	border: 1px solid red;
+	
+
+}
+
+.owl-carousel .img-2 {
+	width: 300px;
+	height: 290px;
+	border-radius: 10%;
+	border: 1px solid red;
+}
+
+
+@media  screen and (max-width: 780px) {
+	.d-flex {flex-direction: column;}
+	.owl-carousel img.img {display: none;}
+	.owl-carousel .img-2 { height:330px; margin-top:30px; }
+
+	
+}
+	
