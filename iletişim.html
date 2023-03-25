@@ -27,13 +27,15 @@
 
   .topnav .icon {float: right; display: none;} /*icon görünmüyor mobil de açılacak*/
 
-  .bnr { width:100%; text-align: center;}
+  .bnr { width:100%; text-align: center; border-bottom:1px solid red;}
 
    #banner-3 {width:100%; height: 250px;}
 
    #banner-4 {position: absolute; width: 100%; top: 80px; left: 0; display: none;}
 
-   hr.hr { border: 1px solid red; width: 100%;}
+   #resimler {background:#ffe8e8;}
+
+   .container-fluid {background:#ffe8e8;}
 
    iframe {width: 80%;height:60vh;}
 
@@ -53,9 +55,7 @@
 
  .foot-text2 a {text-decoration: none; color: #ddd;}
 
- .social-icon { position: absolute; top:60%; left: 0; z-index: 1; }
-
- .social-icon a { display:block; margin: 0 0 15px 20px; cursor:pointer; font-size:25px;}
+ .social-icon a {font-size:36px; }
 
    @media screen and (max-width: 480px) {
   .topnav {width: 100%;}
@@ -88,14 +88,13 @@
 <section id="sec-1">
 <div class="container-fluid">
     <div class="bnr">
-         <img id="banner-3" class="tlf" src="resim/logo tel adres.jpg">
-         <img id="banner-4" class="tlf-2" src="resim/logo tel adres mini.png">
+         <img id="banner-3" class="tlf" src="resim/logo tel adres.png">
+         <img id="banner-4" class="tlf-2" src="resim/logo tel adres-2-mini.png">
 
     </div>
-    <hr class="hr">
 
         <h2 class="bslk mt-3 text-center">Bize Telefonla veya İnternetten Kolayca Ulaşabilirsiniz</h2>
-      <div class="row justify-content-center lg-mt-3" id="resimler">
+      <div class="row justify-content-around lg-mt-3" id="resimler">
       
        <div class="col-3 text-center" >
          <img class="resim" src="resim/trendyolymk.png">
@@ -114,17 +113,13 @@
     </div>
 
 
-
-     </div> <br>
-
-    <!-- social icons -->
-      <div class="social-icon">
+         <!-- social icons -->
+      <div class="social-icon text-center">
+        <h4>Sosyal Medya Hesaplarımızızdan Bizi Takip Edin</h4>
         <a href="https://www.facebook.com" target="_blank"> <i class='bx bxl-facebook'></i></a>
         <a href="https://www.instagram.com" target="_blank"> <i class='bx bxl-instagram'></i></a>
-        <a href="https://twitter.com" target="_blank"> <i class='bx bxl-twitter'></i></a>
-        <a href="https://tr.linkedin.com" target="_blank"> <i class='bx bxl-linkedin'></i></a>
-        <a href="https://www.youtube.com" target="_blank"> <i class='bx bxl-youtube'></i></a>
     </div>
+  </div>
     </section>	
 
 <!-- footer -->
