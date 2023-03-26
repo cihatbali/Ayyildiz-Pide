@@ -32,11 +32,15 @@
 .moon {width:100px; height:100px; border-radius:50%; background:red;
  clip-path:polygon(50% 0%  80% 50%, 50% 100%  20% 50%);}
 
-.row {background:#777;}
+.row {background:#666; padding-bottom:1rem;}
 
 .resim { width:420px; height:260px; }
 
-.card-body { background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));}
+.resim:hover {scale:1.2; overflow:hidden;}
+
+.card-body { background-image: linear-gradient(to bottom right, rgba(255,0,0,.3), rgba(255,0,0,1));}
+
+.card-title h3 {color:#fff;}
 
 footer {background: #333; color: #999; bottom: 0;}
 
@@ -53,6 +57,7 @@ footer ul li {display: block;}
   .topnav {width: 100%;}
   .topmenu { width:80%;}
   .topnav a {padding:5px 5px; font-size: 12px;}
+  .başlık1, .başlık2 {font-size:38px;}
   .foot-text1{margin-left: 0; padding-left: 0;}
 
 }
@@ -66,7 +71,7 @@ footer ul li {display: block;}
             <a href="index.html">Anasayfa</a>
             <a href="ürünlerimiz.html" class="active">Ürünlerimiz</a>
             <a href="hakkımızda">Hakkımızda</a>
-            <a href="iletişim.html" class="active">İletişim</a>
+            <a href="iletişim.html">İletişim</a>
     <!--<a href="javascript:void(0)" class="icon" onclick="responsiveMenu()">&#9776;</a> -->
         </div> > 
        </nav>
@@ -111,9 +116,9 @@ footer ul li {display: block;}
 
 
         <div class="row mx-auto">
-         <div class="col-md-4 mt-4 rounded img-thumbnail">
+         <div class="col-md-4 mt-4 rounded">
             <div class="card">
-              <img src="img/img4.jpg" class="resim">
+              <img src="img/img4.jpg" class="resim img-thumbnail">
                <div class="card-body">
                 <div class="card-title text-center"> <h3> Kuşbaşılı Kaşarlı </h3> </div>
             <p></p>
@@ -167,6 +172,16 @@ footer ul li {display: block;}
           </div>
        </div>
      </div>
+
+     <div class="col-md-4 mt-4 rounded">
+      <div class="card">
+        <img src="img/img9.jpg" class="resim img-thumbnail">
+         <div class="card-body">
+          <div class="card-title text-center"> <h3> Kuzu Güveci</h3></div>
+          <p> </p>
+        </div>
+     </div>
+   </div>
 
 </div>
  </section>
