@@ -88,7 +88,7 @@ footer ul li {display: block;}
   .topmenu { width:80%;  }
   .topnav a{padding:5px 5px; font-size: 12px;}
   .menu2 img {width: 100%;}
-  .asd-txt1, .asd-txt2, .asd-txt3, .asd-txt4 { width:100%;}
+  .asd-txt1, .asd-txt2, .asd-txt3, .asd-txt4 { width:100%; padding:1em}
   .foot-text1{margin-left: 0; padding-left: 0;}
 }
    
