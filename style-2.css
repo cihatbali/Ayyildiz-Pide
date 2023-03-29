@@ -20,6 +20,9 @@ text-decoration: none; font-size: 16px; }
 
 hr.hr { border: 1px solid red; max-width: 100%;}
 
+.ates {font-family: 'Dancing Script', cursive; font-weight:700; background-image: linear-gradient(to bottom right, rgba(255,0,0,.3), rgba(255,0,0,1));
+letter-spacing:7px; display:inline-block; margin-left:25%;  }  
+
 header .container-fluid{height: 270px;}
 
 #sec1 {background: #ffe8e8;}
@@ -70,6 +73,7 @@ footer ul li {display: block;}
   .topnav {width: 100%;}
   .topmenu { width:90%;  }
   .topnav a{padding:5px 5px; font-size: 12px;}
+  .ates {margin-left:4%; margin-top:25px;}
   .menu2 img {width: 100%;}
   .asd-txt1, .asd-txt2, .asd-txt3, .asd-txt4 { width:50%; padding:1em}
   .foot-text1{margin-left: 0; padding-left: 0;}
