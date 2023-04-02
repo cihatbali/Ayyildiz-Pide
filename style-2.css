@@ -20,7 +20,7 @@ text-decoration: none; font-size: 16px; }
 
 hr.hr { border: 1px solid red; max-width: 100%;}
 
-.ates {font-family: 'Dancing Script', cursive; font-weight:700; background-image: linear-gradient(to bottom right, rgba(255,0,0,.3), rgba(255,0,0,1));
+.ates {font-family: 'Dancing Script', cursive; font-weight:700; /* background-image: linear-gradient(to bottom right, rgba(255,0,0,.3), rgba(255,0,0,1)); */
 letter-spacing:7px; display:inline-block; margin-left:30%; color:#fff; border-radius:5px; margin-top:1rem; margin-bottom:1rem;}  
 
 header .container-fluid{height: 270px;}
